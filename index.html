@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio|Zahid</title>
+    <!--fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <!-- boostraps start -->
+    <link rel="stylesheet" href="./css/aos.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+    <!-- nav start -->
+    <nav class="navbar bg-light fixed-top navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">
+                <h1 class="logo">ZaHid</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon  nav-icon-show"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">ZaHid</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link active dropdown-toggle" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false" href="#">Home </a>
+                            <!-- dropdown -->
+                            <ul class="dropdown-menu">
+                                <li><a <a class="dropdown-item" href="./index.html">Home</a></li>
+                                <li><a <a class="dropdown-item" href="">Creative Agency</a></li>
+                                <li><a <a class="dropdown-item" href="">Personal Portfolio</a></li>
+                                <li><a <a class="dropdown-item" href="">Home Startup</a></li>
+                                <li><a <a class="dropdown-item" href="">Corporate Agency</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false" href="#">Projects</a>
+                            <!-- dropdown -->
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#project">Feature Project</a></li>
+                                <li><a class="dropdown-item" href="#our-project">Project</a></li>
+                                <li><a class="dropdown-item" href="">Service Details</a></li>
+                            </ul>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">Plan</a>
+                            <!-- dropdown -->
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#pricing">Pricing</a></li>
+                                <li><a class="dropdown-item" href="">Three Column</a></li>
+                                <li><a class="dropdown-item" href="">Four Column</a></li>
+                                <li><a class="dropdown-item" href="">Three Column Width</a></li>
+                                <li><a class="dropdown-item" href="">Four Column Width</a></li>
+                                <li><a class="dropdown-item" href="">Portfolio Details</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">FAQ</a>
+                            <!-- dropdown -->
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="">About Us</a></li>
+                                <li><a class="dropdown-item" href="">Our Office</a></li>
+                                <li><a class="dropdown-item" href="">Case Study</a></li>
+                                <li><a class="dropdown-item" href="">Case Study Details</a></li>
+                                <li><a class="dropdown-item" href="">Team</a></li>
+                                <li><a class="dropdown-item" href="">Team Details</a></li>
+                                <li><a class="dropdown-item" href="">Our Clients</a></li>
+                                <li><a class="dropdown-item" href="">Testimonials</a></li>
+                                <li><a class="dropdown-item" href="">Pricing Table</a></li>
+                                <li><a class="dropdown-item" href="">Typography</a></li>
+                                <li><a class="dropdown-item" href="">404 Page</a></li>
+                                <li><a class="dropdown-item" href="">Coming Soon</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="./blog.html" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">Blog </a>
+                            <!-- dropdown -->
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="./blog-page.html">Blog</a></li>
+                                <li><a class="dropdown-item" href="">Standard Post</a></li>
+                                <li><a class="dropdown-item" href="">Gallery Post</a></li>
+                                <li><a class="dropdown-item" href="">Video Post</a></li>
+                                <li><a class="dropdown-item" href="">Audio Post</a></li>
+                                <li><a class="dropdown-item" href="">Quote Post</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contact-page.html">Contact</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex " role="search">
+                        <input class="form-control me-2 search-customaizion" type="search" placeholder="Search"
+                            aria-label="Search">
+                        <button class="btn btn-outline-success search-customaizion" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- nav end -->
+
+
+
+    <!-- hero_area laptop -->
+    <section id="home" class="laptop_view">
+        <div class="hero_area_bg ">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-xl-6  col-md-6"">
+                        <div class=" hero_heading " data-aos="flip-left">
+                            <h4>Hello, World!</h4>
+                            <h1>I'm Zahid </h1>
+                            <h3>Frontend Web Designer</h3>
+                            <p>With 1 yrs experience</p>
+                            <button type=" button" class="btn sayhello">Say Hello</button>
+                        <button type="button" class="btn mywork">My Work</button>
+                    </div>
+
+                </div>
+                <div class="col-xl-6  col-md-6" >
+                        <div class=" my_img " data-aos="zoom-in">
+                            <img src=" ./img/zahid.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="main">
+            <div class="owl-carousel owl-theme">
+                <div class="item"><img src="./img/1.png" alt=""></div>
+                <div class="item"><img src="./img/2.png" alt=""></div>
+                <div class="item"><img src="./img/2.png" alt=""></div>
+                <div class="item"><img src="./img/3.png" alt=""></div>
+                <div class="item"><img src="./img/4.png" alt=""></div>
+                <div class="item"><img src="./img/5.png" alt=""></div>
+            </div>
+        </div>
+    </section>
+    <!-- hero_area mobile -->
+    <section id="home" class="mobile_view">
+        <div class="hero_area_bg ">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-xl-6 col-md-6">
+                        <div class="my_img " data-aos="flip-left">
+                            <img src="./img/zahid.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-md-6">
+                        <div class="hero_heading  " data-aos="zoom-in">
+                            <h4>Hello, World!</h4>
+                            <h1>I'm Zahid </h1>
+                            <h3>Frontend Web Designer</h3>
+                            <p>With 1 yrs experience</p>
+                            <button type="button" class="btn sayhello">Say Hello</button>
+                            <button type="button" class="btn mywork">My Work</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="main">
+            <div class="owl-carousel owl-theme">
+                <div class="item"><img src="./img/1.png" alt=""></div>
+                <div class="item"><img src="./img/2.png" alt=""></div>
+                <div class="item"><img src="./img/2.png" alt=""></div>
+                <div class="item"><img src="./img/3.png" alt=""></div>
+                <div class="item"><img src="./img/4.png" alt=""></div>
+                <div class="item"><img src="./img/5.png" alt=""></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- My ex_prience page start -->
+    <section id="about">
+        <div class="container ">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="expercience" data-aos="flip-left">
+                        <div class="sort_block"></div>
+                        <div class="ex_block">
+                            <h3>1 Years</h3>
+                            <p>Expercience</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="ex_heading">
+                        <h1>Over <span class="text_gradient">One years of designing</span>, I transform concepts
+                            projects using <span class="text_gradient"> creativity</span> and <span
+                                class="text_gradient">interactive design </span>worldwide</h1>
+
+                        <button type="button" class="download_resume">Download My Resume</button>
+                    </div>
+                </div>
+                <div class="col-lg-3 pt-5">
+                    <div class="ex_award" data-aos="flip-left">
+                        <div class="award">
+                            <h3>12</h3>
+                            <p>Award winner</p>
+                        </div>
+                        <div class="client">
+                            <h3>1.2 k</h3>
+                            <p>Worldwide client</p>
+                        </div>
+                        <div class="done">
+                            <h3>3.5 k</h3>
+                            <p>Job done successfully</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- my spacelities page start -->
+    <section class="spacelities">
+        <div class="my_spaceilites ">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-lg-8">
+                        <div class="my_spacelities_heading">
+                            <h1>My Specialities</h1>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 ">
+                        <div class="email">
+                            <a href="#"><i class="fa-regular fa-envelope"></i> zahidhasan800972@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row pt-5 g-4">
+                    <div class="col-lg-4 col-xl-3  col-md-6">
+                        <div class="my_spacelities_card pt-5" data-aos="zoom-in">
+                            <div class="sp_icon"><img src="./img/s1.png" alt="" width="30"></div>
+                            <h3>Web Design</h3>
+                            <ul class="pt-3">
+                                <li>Creative Teamwork</li>
+                                <li>Design Material</li>
+                                <li>Google Payment Detail</li>
+                                <li>Trend & Data Analysis</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-xl-3  col-md-6">
+                        <div class="my_spacelities_card pt-5" data-aos="zoom-in">
+                            <div class="sp_icon"><img src="./img/s2.png" alt="" width="30"></div>
+                            <h3>Js Developer</h3>
+                            <ul class="pt-3">
+                                <li>Trendy Design</li>
+                                <li>Dynamic Website</li>
+                                <li>Custom Design</li>
+                                <li>Develop Friendly</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-xl-3  col-md-6">
+                        <div class="my_spacelities_card pt-5" data-aos="zoom-in">
+                            <div class="sp_icon"><img src="./img/s3.png" alt="" width="30"></div>
+                            <h3>Interactive design</h3>
+                            <ul class="pt-3">
+                                <li>Experienced Teamwork</li>
+                                <li>Satisfied Feedback</li>
+                                <li>Refund Policy</li>
+                                <li>Trend & Data Analysis</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-xl-3 col-md-6">
+                        <div class="my_spacelities_card pt-5" data-aos="zoom-in">
+                            <div class="sp_icon"><img src="./img/s4.png" alt="" width="30"></div>
+                            <h3>Design strategy</h3>
+                            <ul class="pt-3">
+                                <li>Design Framework</li>
+                                <li>Creative Content</li>
+                                <li>Payment Detail</li>
+                                <li>Customer Satisfacti</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features project page start -->
+    <section id="project">
+        <div class="container">
+            <div class="feature_projcet-heading">
+                <h1>Features<br />project</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-xl-4 col-lg-6 col-md-6">
+                    <div class="zahid_freature_project_card">
+                        <div class="feature_pro_web_design">
+                            <img src="./img/f1.jpg" alt="Avatar" class="p-image">
+                            <div class="overlay">
+                                <div class="p-text">
+                                    <h2>Web Design</h2>
+                                    <p>Web designing is the process of planning, conceptualizing, and implementing the
+                                        plan for designing a website in a way that is functional and offers a good user
+                                        experience. User experience is central to the web designing process. Websites
+                                        have an array of elements presented in ways that make them easy to navigate.</p>
+                                    <p>Web designing essentially involves working on every attribute of the website that
+                                        people interact with, so that the website is simple and efficient, allows users
+                                        to quickly find the information they need, and looks visually pleasing. All
+                                        these factors, when combined, decide how well the website is designed.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#">
+                            <h3>Web Design</h3>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 col-md-6">
+                    <div class="zahid_freature_project_card">
+                        <div class="feature_pro_web_design">
+                            <img src="./img/f2.jpg" alt="Avatar" class="p-image">
+                            <div class="overlay">
+                                <div class="p-text">
+                                    <h2> UI/UX design</h2>
+                                    <p>Web designing is the process of planning, conceptualizing, and implementing the
+                                        plan for designing a website in a way that is functional and offers a good user
+                                        experience. User experience is central to the web designing process. Websites
+                                        have an array of elements presented in ways that make them easy to navigate.</p>
+                                    <p>Web designing essentially involves working on every attribute of the website that
+                                        people interact with, so that the website is simple and efficient, allows users
+                                        to quickly find the information they need, and looks visually pleasing. All
+                                        these factors, when combined, decide how well the website is designed.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#">
+                            <h3> UI/UX design PSD & FIGMA to HTML</h3>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 col-md-6">
+                    <div class="zahid_freature_project_card">
+                        <div class="feature_pro_web_design">
+                            <img src="./img/f3.jpg" alt="Avatar" class="p-image">
+                            <div class="overlay">
+                                <div class="p-text">
+                                    <h2>Custom design</h2>
+                                    <p>Web designing is the process of planning, conceptualizing, and implementing the
+                                        plan for designing a website in a way that is functional and offers a good user
+                                        experience. User experience is central to the web designing process. Websites
+                                        have an array of elements presented in ways that make them easy to navigate.</p>
+                                    <p>Web designing essentially involves working on every attribute of the website that
+                                        people interact with, so that the website is simple and efficient, allows users
+                                        to quickly find the information they need, and looks visually pleasing. All
+                                        these factors, when combined, decide how well the website is designed.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#">
+                            <h3>Custom design</h3>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="freature_btn pt-5 ">
+                <button type="button" class="btn freature_viewall_btn">View All Work</button>
+            </div>
+        </div>
+    </section>
+    <!-- project section -->
+
+    <section id="our-project">
+        <div class="shape-circle-1">
+            <img src="./img/circle-2.png" alt="">
+        </div>
+        <div class="bubble-5">
+            <img src="./img/bubble-4.png" alt="">
+        </div>
+        <div class="container-fluid ">
+            <div class="project-title">
+                <span>Our Project</span>
+                <h1>Some of our finest work.</h1>
+            </div>
+            <div class="portfolio_fitter  pt-5 pb-5">
+                <button type="button" data-filter="all"><span></span>All</button>
+                <button type="button" data-filter=".category-a"><span></span>BRANDING</button>
+                <button type="button" data-filter=".category-b"><span></span> MOBILE</button>
+            </div>
+            <div class="mixcount row g-3">
+                <div class="mix Portfolio_link col-xl-6 col-md-6  category-b" data-order="1">
+                    <div class="portfolio_box mb-2">
+                        <img src="./img/project-1.png" alt="Avatar" class="image" style="width:100%">
+                        <div class="middle">
+                            <div class="text"><a href="#"><i class="fa-solid fa-link-slash"></i></a></div>
+                        </div>
+
+                    </div>
+                    <a href="#">Hardcover Book Cover</a>
+                    <p>Design / Photography</p>
+                </div>
+
+                <div class="mix Portfolio_link col-xl-6 col-md-6   category-b" data-order="1">
+                    <div class="portfolio_box mb-2">
+                        <img src="./img/project-2.png" alt="Avatar" class="image" style="width:100%">
+                        <div class="middle">
+                            <div class="text"><a href="#"><i class="fa-solid fa-link-slash"></i></a></div>
+                        </div>
+
+                    </div>
+                    <a href="#">Flying Macbook</a>
+                    <p>Design / Photography</p>
+                </div>
+
+                <div class="mix Portfolio_link col-xl-6 col-md-6  category-b category-a" data-order="1">
+                    <div class="portfolio_box mb-2">
+                        <img src="./img/project-3.png" alt="Avatar" class="image" style="width:100%">
+                        <div class="middle">
+                            <div class="text"><a href="#"><i class="fa-solid fa-link-slash"></i></a></div>
+                        </div>
+
+                    </div>
+                    <a href="#">Floating Card</a>
+                    <p>Design / Photography</p>
+                </div>
+
+
+                <div class="mix Portfolio_link col-xl-6 col-md-6  category-a" data-order="1">
+                    <div class="portfolio_box mb-2">
+                        <img src="./img/project-4.png" alt="Avatar" class="image" style="width:100%">
+                        <div class="middle">
+                            <div class="text"><a href="#"><i class="fa-solid fa-link-slash"></i></a></div>
+                        </div>
+
+                    </div>
+                    <a href="#">Floating Card</a>
+                    <p>Design / Photography</p>
+                </div>
+
+                <div class="mix Portfolio_link col-xl-6 col-md-6  category-b " data-order="1">
+                    <div class="portfolio_box mb-2">
+                        <img src="./img/project-5.png" alt="Avatar" class="image" style="width:100%">
+                        <div class="middle">
+                            <div class="text"><a href="#"><i class="fa-solid fa-link-slash"></i></a></div>
+                        </div>
+
+                    </div>
+                    <a href="#">Tri-O Typeface</a>
+                    <p>Design / Photography</p>
+                </div>
+
+                <div class="mix Portfolio_link col-xl-6 col-md-6  category-b" data-order="1">
+                    <div class="portfolio_box mb-2">
+                        <img src="./img/project-6.png" alt="Avatar" class="image" style="width:100%">
+                        <div class="middle">
+                            <div class="text"><a href="#"><i class="fa-solid fa-link-slash"></i></a></div>
+                        </div>
+
+                    </div>
+                    <a href="#">Hardcover Book Cover</a>
+                    <p>Design / Photography</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- working process page start -->
+    <section class="working_process">
+        <div class="container ">
+            <div class="working_process_heading">
+                <h2>Working process</h2>
+            </div>
+            <div class="row g-4">
+                <div class="col-xl-3 col-md-6 col-lg-4">
+                    <div class="working_process_step">
+                        <div class="step_num">Step: 1</div>
+                        <div class="w_icon pt-5"><img src="./img/w-icon-1.png" alt=""></div>
+                        <h4>Send up your project</h4>
+                        <p>Compellingly repurpose covalent core competencies for top-line paradigms.</p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6 col-lg-4">
+                    <div class="working_process_step">
+                        <div class="step_num">Step: 2</div>
+                        <div class="w_icon pt-5"><img src="./img/w-icon-2.png" alt=""></div>
+                        <h4>Get it delivered on time</h4>
+                        <p>Compellingly repurpose covalent core competencies for top-line paradigms.</p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6 col-lg-4">
+                    <div class="working_process_step">
+                        <div class="step_num">Step: 3</div>
+                        <div class="w_icon pt-5"><img src="./img/w-icon-3.png" alt=""></div>
+                        <h4>Take on more clients & scale up</h4>
+                        <p>Compellingly repurpose covalent core competencies for top-line paradigms.</p>
+                    </div>
+                </div>
+                <div class="col-xl-3 ">
+                    <div class="working_img">
+                    </div>
+                </div>
+            </div>
+            <div class="coonet_btn pt-5 mt-4">
+                <button type="button" class="btn working_btn">Contact With Me</button>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- testimonials page start -->
+    <section>
+        <div class="testimonials ">
+            <div class="container ">
+                <div class="row g-4">
+                    <div class="col-xl-6 col-lg-6 col-md-12">
+                        <div class="testimonials_person">
+                            <img src="./img/test-1.jpg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col col-lg-6-md-12">
+                        <div class="quote pt-5">
+                            <h2>“We worked with Marketify designing our backend web app from scratch and we are happy
+                                with the results. He has good communication skills and uses robust workflows that
+                                allowed me and my team to work with him efficiently.”</h2>
+                            <h3>By Adam Walker</h3>
+                            <p>CEO @Javis Company Ltd.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing">
+        <div class="container">
+            <div class="pricing_heading">
+                <h1>Pricing</h1>
+            </div>
+            <div class="row g-4 pt-5 ">
+                <div class="col-xl-4 col-md-6 col-lg-6">
+                    <div class="p_basic" data-aos="zoom-in">
+                        <p>BASIC</p>
+                        <h3>40 Hours</h3>
+                        <h4>10 hours per week</h4>
+                        <h1>$50<span>/hour</span></h1>
+                        <button type="button" class="btn pricing_btnb">Get Started now</button>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-lg-6">
+                    <div class="p_standard" data-aos="zoom-in">
+                        <p>STANDARD</p>
+                        <h3>60 Hours</h3>
+                        <h4>20 hours per week</h4>
+                        <h1>$60<span>/hour</span></h1>
+                        <button type="button" class="btn pricing_btns">Get Started now</button>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-lg-6">
+                    <div class="p_premium" data-aos="zoom-in">
+                        <p>PREMIUM</p>
+                        <h3>90 Hours</h3>
+                        <h4>30 hours per week</h4>
+                        <h1>$120<span>/hour</span></h1>
+                        <button type="button" class="btn pricing_btnb">Get Started now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- blog page start -->
+    <section id="blog">
+        <div class="container ">
+            <div class="row g-4">
+                <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8">
+                    <div class="blog_heading">
+                        <h1>Recent Blog</h1>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+                    <div class="blog_view_page">
+                        <div class="blog_link">
+                            <a href="./blog-page.html">View All</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-4 pt-5">
+                <div class="col-xl-6">
+                    <div class="blog_card">
+                        <div class="blog_img">
+                            <img src="./img/b3.jpg" alt="" class="img-fluid">
+                        </div>
+                        <p>Sep 22, 2023</p>
+                        <a href="#">
+                            <h3> Why your client needs a responsive website</h3>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xl-6">
+                    <div class="blog_card">
+                        <div class="blog_img">
+                            <img src="./img/b4.jpg" alt="" class="img-fluid">
+                        </div>
+                        <p>Sep 11, 2023</p>
+                        <a href="#">
+                            <h3> Best design books for increase design knowledge</h3>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+    <!-- footer section -->
+    <footer>
+        <div class="footer_bg">
+            <div class="container mt-5 pt-5">
+                <div class="footer_main">
+                    <div class="row g-4">
+                        <div class="col-xl-6">
+                            <div class="footer_heading">
+                                <h1>Got a project? Let's talk</h1>
+                            </div>
+                        </div>
+                        <div class="col-xl-6">
+                            <div class="footer_right">
+                                <h4>Jara is a creative web studio based in New York, USA. You can call between 9:00 a.m.
+                                    and 8:00 p.m. ET, Monday through Friday</h4>
+                                <div class="footer_btn pt-4">
+                                    <button type="button" class="footer_call_btn">Book Call</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-4 pt-5">
+                    <div class="col-xl-6 col-md-6">
+                        <div class="copyright">
+                            <p> © 2024 ZaHid All Right Reserved</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-4">
+                        <div class="footer_logo">
+                            <a href="#">
+                                <h3>ZaHid</h3>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-2">
+                        <div class="socail_bar">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="./js/jquery-2.2.4.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/jquery.counterup.min.js"></script>
+    <script src="./js/mixitup.min.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+    <script src="./js/aos.js"></script>
+    <script src="./js/index.js"></script>
+
+
+    <script>
+
+    </script>
+</body>
+
+</html>
